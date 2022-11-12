@@ -7,6 +7,10 @@
 
 `bash ./scripts/start.sh`
 
+`start.sh` accepts an optional port number as a param, for example: `bash ./scripts/start.sh 9000`
+
+If the port isn't provided, the default will be 8000
+
 ### TEST
 
 `bash ./scripts/test.sh`
@@ -16,7 +20,7 @@
 
 **URL:** `/command/` <br>
 **Method:** `POST`<br>
-**Body:** <JSON>: ```{
+**Body \<JSON\>:** ```{
   "command": string
 }```
 
